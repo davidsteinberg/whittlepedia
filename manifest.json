@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Whittlepedia",
+  "version": "1.0",
+  "homepage_url": "https://github.com/davidsteinberg/whittlepedia",
+  "description": "Whittles Wikipedia pages down to just the links for rapid exploration. Non-link text is invisible by default, and a show/hide button allows you to toggle it on or off.",
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.wikipedia.org/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
