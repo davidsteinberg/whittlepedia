@@ -1,12 +1,13 @@
 {
   "manifest_version": 2,
   "name": "Whittlepedia",
-  "version": "1.0",
+  "version": "0.1.0",
+  "author": "David Steinberg",
   "homepage_url": "https://github.com/davidsteinberg/whittlepedia",
-  "description": "Whittles Wikipedia pages down to just the links for rapid exploration. Non-link text is invisible by default, and a show/hide button allows you to toggle it on or off.",
+  "description": "Whittle Wikipedia pages down to just the links for rapid exploration. A button at the top of each page allows you to toggle non-link text visibility on or off.",
   "icons": {
-    "48": "icon.svg",
-    "96": "icon.svg"
+    "48": "assets/icon.svg",
+    "96": "assets/icon.svg"
   },
   "permissions": [
     "storage"
