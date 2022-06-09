@@ -76,8 +76,8 @@ const setUpButton = (nonLinks, storedSeeOnlyLinks) => {
     padding: "10px 20px",
     borderBottomLeftRadius: "5px",
     borderBottomRightRadius: "5px",
-    fontSize: "20px",
     cursor: "pointer",
+    zIndex: 100,
   });
 
   // Add events to button
