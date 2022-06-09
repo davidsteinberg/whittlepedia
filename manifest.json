@@ -8,6 +8,9 @@
     "48": "icon.svg",
     "96": "icon.svg"
   },
+  "permissions": [
+    "storage"
+  ],
   "content_scripts": [
     {
       "matches": ["*://*.wikipedia.org/*"],
